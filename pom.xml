@@ -19,14 +19,14 @@
 		<repository>
 			<id>jenkins</id>
 			<name>jenkins</name>
-			<url>http://localhost:8081/nexus/content/repositories/releases</url>
+			<url>http://localhost:8081/nexus/content/repositories/sanpshots</url>
 		</repository>
 
 		<!-- Publish the versioned releases here -->
 		<snapshotRepository>
 			<id>jenkins</id>
 			<name>jenkins</name>
-			<url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+			<url>http://localhost:8081/nexus/content/repositories/releases</url>
 		</snapshotRepository>
 	</distributionManagement>
 
